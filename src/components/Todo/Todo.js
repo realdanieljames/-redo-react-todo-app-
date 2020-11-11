@@ -116,7 +116,7 @@ appHandleEditTodo = (targetID)=> {
     let copiedArray = [...this.state.todoList];
     let editTodoValue;
     copiedArray.map((item)=>{
-        if(item.id === targeID) {
+        if(item.id === targetID) {
             item.editToggle = true;
             editTodoValue = item.todo;
         }
